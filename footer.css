@@ -1,0 +1,592 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", sans-serif;
+}
+
+.footer-wrapper {
+  width: min(1110px, 100% - 3rem);
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.part1 {
+  /* height: 827px; */
+  /*border: 2px solid black;*/
+  margin-left: 15px;
+  margin-bottom: 200px;
+  width: min(1110px, 100% - 3rem);
+  margin-inline: auto;
+}
+.Testimonial {
+  /*border: 2px solid black;*/
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 126px;
+  position: relative;
+}
+.Likebox {
+  background-color: #64d5fd;
+  width: 76px;
+  height: 76px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 122px;
+  border-radius: 10px;
+}
+.woman {
+  margin-left: 35px;
+  flex: 1 1 0;
+  min-width: 0;
+}
+.rightcolumn {
+  /*border: 2px solid blue;*/
+  /* height: 100%; */
+  flex: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 32px;
+}
+.Quote {
+  width: 59px;
+}
+.paragraph1 {
+  /*border: 2px solid black;*/
+  color: #8480ae;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 40px;
+  /* word-wrap: break-word; */
+}
+.Name {
+  /*border: 2px solid black;*/
+  color: #fdc46e;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  height: 43px;
+}
+.JobPosition {
+  /*border: 2px solid red;*/
+  width: 121px;
+  height: 27px;
+  color: #8480ae;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.part2 {
+  width: 100%;
+  margin: 0 auto;
+}
+.Newsletter {
+  /*border: 2px solid blue;*/
+  padding: 56px 0 69px 0;
+  border-radius: 15px;
+  background-color: #f4f7fc;
+  /* padding-top: 56px; */
+  width: min(1110px, 100% - 3rem);
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+.SignUp {
+  /*border: 2px solid black;*/
+  text-align: center;
+  color: #0b0757;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  /* margin-bottom: 15px; */
+}
+.paragraph2 {
+  /*border: 2px solid red;*/
+  /* width: 450px; */
+  /* height: 78px; */
+  color: #8480ae;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  /* margin-left: 334px; */
+  /* margin-bottom: 21px; */
+}
+.Emailbox {
+  /*border: 2px solid black;*/
+  /* width: 100%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+input {
+  width: 480px;
+  height: 67px;
+  padding-left: 35px;
+  color: rgb(11, 7, 87);
+  font-size: 16px;
+  border: 0;
+  border-radius: 50px;
+  background: #fff;
+  position: relative;
+}
+input::placeholder {
+  /*border: 2px solid orange;*/
+  width: 193px;
+  height: 27px;
+  color: rgba(11, 7, 87, 0.2);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  position: absolute;
+}
+.Submitbutton {
+  background-color: #1374f6;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 16px;
+  top: 11px;
+}
+
+.arrow {
+  width: 24px;
+  position: absolute;
+  right: 5px;
+}
+
+.part3 {
+  /*border: 2px solid black;*/
+  width: 100%;
+  margin: 0 auto;
+}
+.Copyright {
+  /*border: 2px solid blue;*/
+  width: min(1110px, 100% - 3rem);
+  margin-inline: auto;
+  margin-top: 112px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 72px;
+  padding-left: 11px;
+}
+.Toppart {
+  /*border: 2px solid orange;*/
+  /* height: 265px; */
+  /* width: 1110px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 36px;
+  /* border-bottom: 1px solid rgba(132, 128, 174, 0.3); */
+}
+
+.Toppart > * {
+  flex: 1 1 0;
+}
+
+.Group {
+  width: 56px;
+  height: 56px;
+}
+
+.Co1 {
+  /* width: 350px; */
+  flex-grow: 3;
+}
+
+.Head1 {
+  /*border: 2px solid black;*/
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.Head1 > h2 {
+  color: #0b0757;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.Head2 > h2,
+.Head3 > h2,
+.Head4 > h2 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.pa {
+  /*border: 2px solid blue;*/
+  /* width: 350px; */
+  /* height: 90px; */
+  color: #8480ae;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 9px;
+}
+.Icon {
+  /*border: 2px solid black;*/
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  gap: 13px;
+}
+.picbox {
+  width: 32px;
+  height: 32px;
+  background-color: rgba(19, 116, 246, 0.15);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Headwitharrow {
+  /*border: 2px solid blue;*/
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.Downarrow {
+  width: 32px;
+  height: 32px;
+  display: none;
+}
+
+.Head2,
+.Head3,
+.Head4 {
+  /*border: 2px solid red;*/
+  margin-top: 9px;
+  height: 24px;
+  color: #0b0757;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.Co-Features,
+.Co-About,
+.Co-Resources {
+  /*border: 2px solid black;*/
+  margin-top: 32px;
+  height: 132px;
+  color: #8480ae;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+hr {
+  border: 1px solid #00000020;
+}
+
+.Bottompart {
+  /*border: 2px solid red;*/
+  text-align: center;
+  /* margin-top: 31px; */
+  margin-left: 374px;
+  width: 361px;
+  height: 27px;
+  color: rgba(11, 7, 87, 0.2);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 620px) {
+  section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  hr {
+    display: none;
+  }
+
+  .part1 {
+    width: 375px;
+    height: 847px;
+    /*border: 2px solid blue;*/
+    padding-top: 74px;
+    padding-left: 25px;
+    margin-bottom: 0px;
+  }
+  .Testimonial {
+    /*border: 2px solid red;*/
+    height: 688px;
+    width: 308px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    gap: 20px;
+  }
+  .woman {
+    height: 424px;
+    width: 308px;
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+  .Likebox {
+    left: -22px;
+    top: 234px;
+  }
+  .rightcolumn {
+    /*border: 2px solid blue;*/
+    width: 343px;
+    height: 847px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+  .Quote {
+    width: 44px;
+    height: 44px;
+    margin-top: 0px;
+    margin-bottom: 18px;
+  }
+  .paragraph1 {
+    /*border: 2px solid black;*/
+    font-size: 16px;
+    line-height: 24px;
+    width: 343px;
+    height: 100px;
+    text-align: center;
+  }
+  .Name {
+    /*border: 2px solid black;*/
+    font-size: 20px;
+    width: 120px;
+    height: 36px;
+    margin-left: 112px;
+  }
+  .JobPosition {
+    /*border: 2px solid red;*/
+    /* margin-bottom: 85px; */
+    margin-left: 118px;
+  }
+
+  .part2 {
+    /*border: 2px solid black;*/
+    width: 100%;
+    /* height: 325px; */
+    padding: 0px;
+  }
+  .Newsletter {
+    /*border: 2px solid blue;*/
+    width: 375px;
+    height: 325px;
+    border-radius: 0px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .SignUp {
+    width: 342px;
+    /*border: 2px solid black;*/
+    margin-bottom: 16px;
+  }
+  .paragraph2 {
+    /*border: 2px solid red;*/
+    width: 290px;
+    height: 56px;
+    font-size: 16px;
+    margin-left: -1px;
+    margin-bottom: 24px;
+  }
+  .Emailbox {
+    /*border: 2px solid black;*/
+    width: 319px;
+    height: 67px;
+  }
+  input {
+    width: 100%;
+    height: 100%;
+  }
+  input::placeholder {
+    /*border: 2px solid orange;*/
+    margin-left: 25px;
+  }
+  .Submitbutton {
+    right: 10px;
+    top: 11px;
+  }
+
+  .part3 {
+    /*border: 2px solid black;*/
+    width: 375px;
+    height: 597px;
+    padding: 46px 0px 0px 0px;
+  }
+  .Copyright {
+    /*border: 2px solid blue;*/
+    width: 375px;
+    height: 526px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+    margin-top: 0;
+  }
+  .Toppart {
+    /*border: 2px solid orange;*/
+    height: 470px;
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 0px solid rgba(132, 128, 174, 0.3);
+  }
+  .Group {
+    width: 52.97px;
+    height: 46px;
+  }
+  .Co1 {
+    width: 100%;
+  }
+  .Head1 {
+    /*border: 2px solid black;*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #0b0757;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .pa {
+    /*border: 2px solid blue;*/
+    width: 343px;
+    height: 90px;
+    color: #8480ae;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 16px;
+    margin-left: 16px;
+  }
+  .Icon {
+    /*border: 2px solid black;*/
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 13px;
+    margin-left: 17px;
+    margin-bottom: 30px;
+  }
+  .picbox {
+    width: 32px;
+    height: 32px;
+    background-color: rgba(19, 116, 246, 0.15);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Co2 {
+    /*border: 2px solid green;*/
+    margin-left: 0px;
+    width: 375px;
+    border-bottom: 1px solid #70759c;
+  }
+  .Head2,
+  .Head3,
+  .Head4 {
+    /*border: 2px solid red;*/
+    margin-top: 24px;
+    height: 24px;
+    color: #0b0757;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 16px;
+    margin-bottom: 24px;
+  }
+  .Headwitharrow {
+    /*border: 2px solid blue;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .Downarrow {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    margin-right: 32px;
+  }
+  .Co-Features,
+  .Co-About,
+  .Co-Resources {
+    display: none;
+  }
+  .Co3 {
+    /*border: 2px solid black;*/
+    margin-left: 0px;
+    width: 100%;
+    border-bottom: 1px solid #70759c;
+  }
+  .Co4 {
+    /*border: 2px solid crimson;*/
+    margin-left: 0px;
+    width: 100%;
+    border-bottom: 1px solid #70759c;
+  }
+  .Bottompart {
+    /*border: 2px solid red;*/
+    text-align: center;
+    margin-top: 120px;
+    margin-left: 39px;
+    width: 297px;
+    height: 26px;
+    color: #8480ae;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.3px;
+  }
+  .Bottomparagraph {
+    display: none;
+  }
+}

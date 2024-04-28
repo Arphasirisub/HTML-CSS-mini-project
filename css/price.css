@@ -1,0 +1,286 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  font-family: "Rubik", sans-serif;
+}
+
+.--t-yellow {
+  color: #fdc46e;
+}
+
+.--t-green {
+  color: #00b894;
+}
+
+.--t-blue {
+  color: #1374f6;
+}
+
+.--b-yellow {
+  background-color: #fdc46e;
+}
+
+.--b-green {
+  background-color: #00b894;
+}
+
+.--b-blue {
+  background-color: #1374f6;
+}
+
+.wrapper {
+  margin-top: 135px;
+  margin-bottom: 78px;
+}
+
+.price {
+  max-width: 1440px;
+  margin: 15px;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 84px;
+  margin-bottom: 78px;
+}
+
+.price-header {
+  width: 100%;
+  color: #8480ae;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.price-text {
+  color: #0b0757;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 500;
+  margin: 0 15px;
+}
+
+.price-plan {
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.price-plan-text {
+  color: #8480ae;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.price-table-container {
+  width: min(1110px, 100% - 3rem);
+  margin-inline: auto;
+  margin: 15px;
+}
+
+table {
+  margin: 15px;
+  width: 100%;
+  border: 1px solid #0b075714;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+tr,
+th,
+td {
+  border: 1px solid #0b075714;
+}
+
+thead {
+  height: 160px;
+}
+
+.table-button-container {
+  height: 160px;
+}
+
+.price-plan-feature {
+  padding: 1rem;
+  text-align: left;
+  color: #8480ae;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.price-x,
+.price-check {
+  text-align: center;
+}
+
+.table-button-container {
+  text-align: center;
+  height: 135px;
+}
+
+.price-button {
+  padding: 16px 18px;
+  border-radius: 5px;
+  font-size: 14px;
+  width: 120px;
+  margin: 0 auto;
+  color: white;
+  font-weight: 500;
+  margin-bottom: 13px;
+}
+
+.price-button,
+.price-button-text {
+  display: block;
+}
+
+.price-button:hover {
+  cursor: pointer;
+}
+
+.price-button-text {
+  color: #8480ae;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.show-700,
+.show-620 {
+  display: none;
+}
+
+@media screen and (max-width: 840px) {
+  .price-button {
+    margin-bottom: 8px;
+  }
+
+  .price-button-text {
+    font-size: 10px;
+  }
+
+  .show-700 {
+    display: initial;
+  }
+
+  .price-plan-feature {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .hide-620 {
+    display: none;
+  }
+
+  .show-620 {
+    display: initial;
+  }
+
+  .wrapper {
+    margin-bottom: 0;
+  }
+
+  .price {
+    gap: 48px;
+    margin-bottom: 0;
+  }
+
+  .price-text {
+    font-size: 36px;
+  }
+
+  .price-container-620 {
+    width: min(620px, 100% - 3rem);
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 72px;
+    margin-bottom: 78px;
+  }
+
+  .price-620 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 36px;
+    border: 2px solid #0b075714;
+    padding: 36px;
+    border-radius: 1rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+
+  .price-header-620 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .price-plan-620 {
+    font-size: 48px;
+    font-weight: 500;
+  }
+
+  .price-plan-text-620 {
+    font-size: 36px;
+    color: #0b0757;
+    font-weight: 400;
+    line-height: 30px;
+  }
+
+  .feature-620 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 8px;
+  }
+
+  .feature-list-620 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .feature-list-620 p {
+    color: #8480ae;
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .feature-620 img {
+    width: 36px;
+  }
+
+  .button-container-620 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .button-620 {
+    padding: 16px 18px;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    border: 0px;
+    font-family: "Rubik", sans-serif;
+  }
+
+  .button-container-620 p {
+    color: #8480ae;
+    font-size: 14px;
+    font-style: italic;
+  }
+}

@@ -3,12 +3,9 @@
     padding:0;
     box-sizing:border-box;
 }
-section{
-
-}
 
 body{
-    font-family: "Rubik"; sans-seriff;
+    font-family: "Rubik" sans-seriff;
     display:flex;
     flex-direction:column;
     /*justify-content: center;
@@ -230,9 +227,7 @@ ul {
     align-items: center;
 
 }
-.background-pic{
-    
-}
+
 .profile-pic{
     position:absolute;
     margin: 26px 46px 11px 30px;
@@ -351,8 +346,8 @@ ul {
     justify-content: center;
     align-items: center;
     border-radius:5px;
-    width: 125px;px;
-    height: 36px;px;
+    width: 125px;
+    height: 36px;
     background-color:#00B894 ;
     color: #FFFFFF;
 }
@@ -576,9 +571,7 @@ ul {
         align-items: center;
     
     }
-    .background-pic{
-        
-    }
+
     .profile-pic{
         position:absolute;
         margin: 26px 46px 11px 30px;
@@ -697,8 +690,8 @@ ul {
         justify-content: center;
         align-items: center;
         border-radius:5px;
-        width: 125px;px;
-        height: 36px;px;
+        width: 125px;
+        height: 36px;
         background-color:#00B894 ;
         color: #FFFFFF;
     }
